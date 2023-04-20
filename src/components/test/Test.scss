@@ -1,0 +1,8 @@
+@import '../../common/mixins';
+
+.test{
+  min-height: rem(9000);
+  background: #cabbbb;
+  
+  padding: rem(50) 0;
+}

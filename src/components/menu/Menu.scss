@@ -1,0 +1,43 @@
+@import '../../common/mixins';
+
+.menu{
+  display: flex;
+  flex-direction: column;
+  @include _768 {
+    align-items: flex-start;
+    width: 100%;
+  }
+  &__link {
+    @include _768 {
+      font-size: rem(18);
+      transform: none;
+      writing-mode: initial;
+      &:hover{
+        &:before{
+          width: 100%;
+        }
+      }
+    }
+    @include _1140{
+      font-size: rem(20);
+      margin: rem(8) 0;
+    }
+    position: relative;
+    color: var(--color-main);
+    font-size: rem(14);
+    font-weight: 500;
+    transform: rotate(-180deg);
+    writing-mode: vertical-rl;
+    margin: rem(5) 0;
+    &:before{
+      content: '';
+      position: absolute;
+      bottom: rem(-2);
+      left: 0;
+      width: 0;
+      height: rem(2);
+      background: var(--color-main);
+      transition: .3s;
+    }
+  }
+}

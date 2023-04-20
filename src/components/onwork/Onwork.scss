@@ -1,0 +1,18 @@
+@import '../../common/mixins';
+
+.onwork{
+  padding: rem(300) 0;
+  &__title{
+    font-size: 8.5vw;
+    line-height: 120%;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    @include _576{
+      font-size: rem(48);
+    }
+    @include _1140{
+      font-size: rem(52);
+    }
+  }
+}

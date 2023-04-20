@@ -1,0 +1,245 @@
+{
+  "header": {
+    "name": "Evgeny",
+    "surname": "Glebov",
+    "nav": [
+      {
+        "title": "Experience",
+        "link": "/experience",
+        "id": "01"
+      },
+      {
+        "title": "Contacts",
+        "link": "/contacts",
+        "id": "02"
+      }
+    ]
+  },
+  "intro": {
+    "title": "frontent",
+    "subtitle": "developer",
+    "description": "frontent-developer"
+  },
+  "form": {
+    "login": "Login",
+    "registration": "Registration",
+    "name": "Name",
+    "email": "Email",
+    "password": "Password",
+    "confirm": "I confirm to the sending, processing and storage of data",
+    "confirm2": "I confirm to the processing of data and agree to the privacy policy",
+    "or": "or"
+  },
+  "information": {
+    "title": "Information",
+    "description": "This page was created to protect protected routes and the logic of the personal account/admin panel.",
+    "more": "Show more",
+    "cards": [
+      {
+        "title": "Protected Route",
+        "description": "<span>Only</span> for authorized users",
+        "route": "presentation"
+      },
+      {
+        "title": "Personal Area",
+        "description": "authorized / unauthorized user",
+        "route": "account"
+      },
+      {
+        "title": "Admin Panel",
+        "description": "User with admin rights",
+        "route": "admin"
+      }
+    ]
+  },
+  "skills": {
+    "title": "Skills",
+    "description": "text",
+    "item": [
+      {
+        "title": "HTML",
+        "grade": 100,
+        "points": [
+          "HTML 5",
+          "Adaptive",
+          "Cross-browser",
+          "Semantics",
+          "BEM",
+          "JSX",
+          "Optimization",
+          "Typographics",
+          "SEO"
+        ],
+        "info": "Layout quickly and efficiently. From the very beginning, I lay the foundation for scaling the project. Used component approach to web development. Used semantic elements to ensure the availability and ranking of sites in search engines."
+      },
+      {
+        "title": "CSS",
+        "grade": 90,
+        "points": [
+          "CSS",
+          "LESS",
+          "SCSS/SASS",
+          "Mobile First",
+          "CSS-animation",
+          "Flexible",
+          "Grids",
+          "Masks",
+          "Pixel Perfect",
+          "SVG",
+          "REMs"
+        ],
+        "info": "I prefer mobile-first. Due to preprocessors, the code writing time and its readability are significantly reduced. I use modern features of CSS. I like to create various animations, both in styles and using more labor-intensive technologies such as Three.js, GSAP. I freely use flex and grid. I carefully monitor the adaptability of the elements, checking and rechecking the product on various resolutions and browsers. In case of doubts about the admissibility of properties and their support, I will definitely check on caniuse.com"
+      },
+      {
+        "title": "JavaScript",
+        "grade": 90,
+        "points": [
+          "JavaScript",
+          "Ajax",
+          "Plugins",
+          "Animation",
+          "Events",
+          "Closure",
+          "DOM / virtual DOM",
+          "Regular expressions",
+          "Cookies",
+          "API",
+          "Webpack",
+          "Gulp"
+        ],
+        "info": "I think that a modern website is unthinkable without JS. I write and optimize code in native JS, comment as much as possible for myself and others, isolate and remove logic in modules if there is an intended and potential possibility of reuse for this. The composition of the API and the specific mechanisms of frameworks are actively used, depending on the project and the tasks set. Often practice on codewars.com"
+      }
+    ]
+  },
+  "swiper": {
+    "title": "Work examples"
+  },
+  "experience": {
+    "title": "Work experience",
+    "stack": "Stack:",
+    "responsibilities": "Responsibilities:",
+    "example": "Site examples:",
+    "info": [
+      {
+        "name": "Frontend-developer",
+        "date": "September 2022 г. – present time",
+        "company": {
+          "name": "SYNERGY Corporation",
+          "link": "https://synergy.ru/"
+        },
+        "duties": ["Creating components", "Support for existing projects"],
+        "links": [
+          {
+            "item": "https://synergystart.ru/",
+            "image": "synergystart"
+          }
+        ],
+        "stack": ["Vue 2/3", "Vuex/Pina", "Nuxt 2/3", "Options API/Composition API"]
+      },
+      {
+        "name": "Frontend-developer",
+        "date": "May 2022 г. - September 2022 г.",
+        "company": {
+          "name": "Cheil Russia",
+          "link": "http://www.cheil.com/ru"
+        },
+
+        "duties": [
+          "Layout and development of the logic of product pages of the site",
+          "Coding configurators",
+          "Queries, display, interaction with data",
+          "Life cycle maintenance and optimization of developed solutions"
+        ],
+        "links": [
+          {
+            "item": "https://www.samsung.com/ru/offer/samsung-care-plus/",
+            "image": "careplus"
+          }
+        ],
+        "stack": ["Vue", "React"]
+      },
+      {
+        "name": "HTML-coder",
+        "date": "January 2019 г. - May 2022 г.",
+        "company": {
+          "name": "SYNERGY Corporation",
+          "link": "https://synergy.ru/"
+        },
+        "duties": [
+          "Landing page layout based on layouts",
+          "Integration with Bitrix, modX",
+          "Support for existing projects",
+          "Setting up optimization, analytics, mechanics of interaction with the server"
+        ],
+        "links": [
+          {
+            "item": "https://synergy.ru/lp/design/",
+            "image": "design"
+          },
+          {
+            "item": "https://synergyproduction.ru/",
+            "image": "production"
+          },
+          {
+            "item": "https://akademia-triz.ru/lp/webinar/",
+            "image": "webinar"
+          },
+          {
+            "item": "https://synergydigital.com/lp/marketplaces/",
+            "image": "marketplaces"
+          },
+          {
+            "item": "https://synergy.ru/lp/openday/management/",
+            "image": "management"
+          },
+          {
+            "item": "https://programiss.ru/",
+            "image": "programiss"
+          },
+          {
+            "item": "https://synergyglobal.ru/forums/brain2023/",
+            "image": "brain"
+          }
+        ],
+        "stack": ["Gulp", "Nunjucks", "PHP", "JS"]
+      },
+      {
+        "name": "HTML-coder",
+        "date": "June 2018 г. - October 2018 г.",
+        "company": {
+          "name": "CC 'Green Line'",
+          "link": "https://www.inspiro.ru/"
+        },
+        "duties": [
+          "Layout of new and refactoring of existing pages",
+          "Implementation and configuration of analytics systems",
+          "Micropage layout",
+          "Site speed optimization",
+          "Working with Template Toolkit",
+          "Working with the version control system Git",
+          "Maiking of e-mail"
+        ],
+        "stack": ["HTML/CSS", "JavaScript/jQuery"]
+      }
+    ]
+  },
+  "presentation": {
+    "title": "Protected Route",
+    "description": "This page can only be accessed by registered users. <br/>If you want to go to it without authorization, a redirect occurs."
+  },
+  "error": {
+    "title": "404 page"
+  },
+  "work": {
+    "title": "Page on work"
+  },
+  "userpage": {
+    "title": "Personal Information"
+  },
+  "btnBack": "Go back",
+  "footer": {
+    "contacts": "Contacts:",
+    "useful": "Useful links:",
+    "rights": "Development, promotion, etc."
+  }
+}

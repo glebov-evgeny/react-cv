@@ -1,0 +1,127 @@
+@import '../../common/mixins';
+
+.header{
+  box-sizing: border-box;
+  flex-shrink: 0;
+  background: var(--color-second);
+  color: var(--color-main);
+  z-index: 900;
+  position: sticky;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: rem(40);
+  min-height: 100vh;
+  padding: var(--a-padding-x5) 0;
+  transition: width .3s ease;
+  @include _576 {
+    width: rem(60);
+  }
+  @include _768 {
+    padding: var(--a-padding-x5);
+    width: rem(180);
+  }
+  @include _1140{
+    padding: var(--a-padding-x10);
+    width: rem(280);
+  }
+  &__logo{  
+    display: flex;
+    align-items: center;
+    flex-direction: column;  
+    @include _768 {
+      width: 100%;
+      flex-direction: column-reverse; 
+      align-items: flex-start;
+    }
+    &-home{
+      display: none;
+      @media screen and (max-height: 600px) {
+        display: block;
+        width: rem(24);
+        height: rem(24);
+        path {
+          stroke: var(--color-main);
+        }
+      }
+    }
+    &-name{
+      color: var(--color-main);
+      font-size: rem(16);
+      font-weight: 800;
+      transform: rotate(-180deg);
+      writing-mode: vertical-rl;
+      margin-top: rem(10);
+      @media screen and (max-height: 600px) {
+        display: none;
+      }
+      @include _768 {
+        font-size: rem(20);
+        font-weight: 900;
+        transform: none;
+        writing-mode: initial;
+        margin: 0;
+      }
+      @include _1140{
+        font-size: rem(32);
+        line-height: 120%;
+      }
+    }
+  }
+  &__logic{
+    display: flex;
+    flex-direction: column;
+    @include _768 {
+      width: 100%;
+      flex-direction: row;
+      align-items: center;
+    }
+  }
+  &__button{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--border-radius-x1);
+    width: rem(24);
+    height: rem(24);
+    background: transparent;
+    color: var(--color-main);
+    margin-top: rem(8);
+    font-size: rem(16);
+    font-weight: 600;
+    &:first-child{
+      margin-top: 0;
+    }
+    @include _768 {
+      width: rem(30);
+      height: rem(30);
+      margin: 0 rem(10) 0 0;
+    }
+    @include _1140{
+      width: rem(35);
+      height: rem(35);
+      margin: 0 rem(15) 0 0;
+    }
+    &-theme{
+      path{
+        fill: var(--color-main);
+      }
+      transition: .3s;
+      &:hover{
+        transform: rotate(45deg);
+      }
+    }
+    &-lang{
+      @include _768 {
+        span{
+          margin-top: rem(2);
+        }
+      }
+    }
+  }
+}
