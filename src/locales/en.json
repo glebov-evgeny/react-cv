@@ -134,7 +134,8 @@
             "image": "synergystart"
           }
         ],
-        "stack": ["Vue 2/3", "Vuex/Pina", "Nuxt 2/3", "Options API/Composition API"]
+        "stack": ["Vue 2/3", "Vuex/Pina", "Nuxt 2/3", "Options API/Composition API"],
+        "id": "04"
       },
       {
         "name": "Frontend-developer",
@@ -156,7 +157,8 @@
             "image": "careplus"
           }
         ],
-        "stack": ["Vue", "React"]
+        "stack": ["Vue", "React"],
+        "id": "03"
       },
       {
         "name": "HTML-coder",
@@ -201,7 +203,8 @@
             "image": "brain"
           }
         ],
-        "stack": ["Gulp", "Nunjucks", "PHP", "JS"]
+        "stack": ["Gulp", "Nunjucks", "PHP", "JS"],
+        "id": "02"
       },
       {
         "name": "HTML-coder",
@@ -219,7 +222,8 @@
           "Working with the version control system Git",
           "Maiking of e-mail"
         ],
-        "stack": ["HTML/CSS", "JavaScript/jQuery"]
+        "stack": ["HTML/CSS", "JavaScript/jQuery"],
+        "id": "01"
       }
     ]
   },

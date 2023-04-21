@@ -139,7 +139,8 @@
             "image": "synergystart"
           }
         ],
-        "stack": ["Vue 2/3", "Vuex/Pina", "Nuxt 2/3"]
+        "stack": ["Vue 2/3", "Vuex/Pina", "Nuxt 2/3"],
+        "id": "04"
       },
       {
         "name": "Frontend-разработчик",
@@ -161,7 +162,8 @@
             "image": "careplus"
           }
         ],
-        "stack": ["Vue", "React"]
+        "stack": ["Vue", "React"],
+        "id": "03"
       },
       {
         "name": "HTML-верстальщик",
@@ -206,7 +208,8 @@
             "image": "brain"
           }
         ],
-        "stack": ["Gulp", "Nunjucks", "PHP", "JS"]
+        "stack": ["Gulp", "Nunjucks", "PHP", "JS"],
+        "id": "02"
       },
       {
         "name": "HTML-верстальщик",
@@ -224,7 +227,8 @@
           "Работа с системой контроля версий Git",
           "Подготовка e-mail рассылок"
         ],
-        "stack": ["HTML/CSS", "JavaScript/jQuery"]
+        "stack": ["HTML/CSS", "JavaScript/jQuery"],
+        "id": "01"
       }
     ]
   },

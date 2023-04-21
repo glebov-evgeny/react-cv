@@ -103,3 +103,20 @@ body {
 .wrapper{
   display: flex;
 }
+.s-title{
+  position: relative;
+  font-size: rem(24);
+  line-height: 130%;
+  font-weight: 900;
+  color: var(--color-second);
+  margin-bottom: rem(45);
+  &::before{
+    content: '';
+    width: 40vw;
+    height: rem(4);
+    background: var(--color-second);
+    position: absolute;
+    right: 0;
+    bottom: rem(-10);
+  }
+}
