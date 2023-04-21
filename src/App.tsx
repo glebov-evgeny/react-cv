@@ -23,7 +23,7 @@ const App = () => {
   }
 
   return (
-    <BrowserRouter basename="/react-cv">
+    <BrowserRouter basename={process.env.REACT_APP_BASE_URL}>
       {loading && <Loader />}
       <div className="wrapper">
         <Header />

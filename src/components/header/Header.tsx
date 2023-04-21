@@ -3,7 +3,6 @@ import { NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import Menu from "../menu/Menu";
 import AllContext from "../../store/store";
-import home from "../../assets/img/common/home.svg";
 
 import "./Header.scss";
 
