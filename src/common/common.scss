@@ -19,6 +19,7 @@ a:active,
 a:focus {
   outline: none;
   box-shadow: inherit;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 *,
@@ -59,6 +60,7 @@ table {
 button{
   border: none;
   outline: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 body {
