@@ -1,0 +1,66 @@
+@import '../../common/mixins';
+
+.contacts{
+  padding: var(--a-padding-x20) 0;  
+  &__block{
+    margin-top: rem(100);
+    @include _1140 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+
+    }
+    @include _1600 {
+      padding: var(--a-padding-x10); 
+      border-radius: var(--border-radius-x2);
+      border: rem(2) solid var(--color-grey);
+      box-shadow: var(--a-padding-x2) var(--a-padding-x2) var(--a-padding-x2) rgba(var(--color-pink-soft-rgb), 0.5);
+      gap: rem(40) 0;
+      margin: 0;
+    }
+  }
+  &__item{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: rem(24);
+    @include _1600 {
+      align-items: flex-start;
+    }
+    &-title{
+      text-align: right;
+      font-size: rem(18);
+      line-height: 120%;
+      font-weight: 700;
+      margin-bottom: rem(4);
+      @include _1600 {
+        text-align: left;
+      }
+    }
+    &-link{
+      text-align: right;
+      position: relative;
+      color: var(--color-blue);
+      font-size: rem(14);
+
+      &::before {
+        content: '';
+        position: absolute;
+        bottom: rem(-2);
+        width: 100%;
+        height: 1px;
+        background: var(--color-blue);
+        background-repeat: repeat-x;
+        background-position: 0 100%;
+        background-size: auto 3px;
+      }
+
+      &:hover {
+        color: var(--color-blue);
+        &::before {
+          height: rem(3);
+          background: url('../../assets/img/common/line.svg');
+        }
+      }
+    }
+  }
+}

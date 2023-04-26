@@ -139,7 +139,7 @@
             "image": "synergystart"
           }
         ],
-        "stack": ["Vue 2/3", "Vuex/Pina", "Nuxt 2/3"],
+        "stack": ["Vue", "Nuxt", "Pina", "Composition API"],
         "id": "04"
       },
       {
@@ -162,7 +162,7 @@
             "image": "careplus"
           }
         ],
-        "stack": ["Vue", "React"],
+        "stack": ["Vue", "React", "Redux"],
         "id": "03"
       },
       {
@@ -227,7 +227,7 @@
           "Работа с системой контроля версий Git",
           "Подготовка e-mail рассылок"
         ],
-        "stack": ["HTML/CSS", "JavaScript/jQuery"],
+        "stack": ["HTML", "SCSS", "JavaScript"],
         "id": "01"
       }
     ]
@@ -236,19 +236,19 @@
     "title": "Защищенный роут",
     "description": "Эту страницу могут видеть только зарегистрированные пользователи. <br/>При попытке зайти на неё без авторизации происходит редирект."
   },
-  "error": {
-    "title": "Страница потерялась"
-  },
   "work": {
     "title": "Страница в разработке"
+  },
+  "error": {
+    "title": "404"
   },
   "userpage": {
     "title": "Личный кабинет"
   },
   "btnBack": "Вернуться",
   "footer": {
-    "contacts": "Контакты:",
-    "useful": "Полезные ссылки:",
+    "contacts": "Контакты",
+    "useful": "Полезные ссылки",
     "rights": "Разработка, продвижение, etc."
   }
 }

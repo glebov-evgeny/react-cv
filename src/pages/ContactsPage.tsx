@@ -1,10 +1,12 @@
 import React from 'react';
-import Onwork from '../components/onwork/Onwork';
+import Contacts from '../components/contacts/Contacts';
+// import Onwork from '../components/onwork/Onwork';
 
 const ContactsPage = () => {
   return (
     <React.Fragment>
-      <Onwork />
+      {/* <Onwork /> */}
+      <Contacts />
     </React.Fragment>
   );
 }

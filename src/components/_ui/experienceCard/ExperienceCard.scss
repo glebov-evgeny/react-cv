@@ -1,16 +1,128 @@
 @import '../../../common/mixins';
 
 .experience__card{
-  background: #eee;
-  &-links{
+  border: rem(2) solid var(--color-grey);
+  border-radius: var(--border-radius-x1);
+  padding: var(--a-padding-x8) var(--a-padding-x6) var(--a-padding-x2);
+  box-shadow: var(--a-padding-x2) var(--a-padding-x2) var(--a-padding-x2) rgba(var(--color-pink-soft-rgb), 0.5);
+  @include _1140 {
+    padding: var(--a-padding-x10) var(--a-padding-x10) var(--a-padding-x8);
+  }
+  &:not(:last-child) {
+    margin-bottom: rem(24);
+  }
+  &-title{
+    font-size: rem(16);
+    line-height: 120%;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: right;
+    margin-bottom: rem(20);
+    @include _768 {
+      font-size: rem(20);
+    }
+  }
+  &-subtitle{
+    font-size: rem(14);
+    line-height: 120%;
+    font-weight: 700;
+    margin-bottom: rem(10);
+    @include _768 {
+      font-size: rem(18);
+    }
+  }
+  &-list{
+    margin-bottom: rem(24);
+    @include _768 {
+      margin-bottom: rem(34);
+    }
+    &._m-compact{
+      /* a-padding-x2 */
+      margin-bottom: rem(16);
+      @include _768 {
+        margin-bottom: rem(26);
+      }
+    }
+  }
+  &-top{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    width: rem(50);
-    height: rem(50);
+    flex-direction: column;
+    margin-bottom: rem(20);
+    @include _576 {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+    @include _768 {
+      margin-bottom: rem(40);
+    }
+  }
+  &-company{
+    font-size: rem(16);
+    line-height: 120%;
+    font-weight: 600;
+    color: var(--color-blue);
+    @include _768 {
+      font-size: rem(18);
+    }
+  }
+  &-date{
+    font-size: rem(14);
+    line-height: 120%;
+    @include _768 {
+      font-size: rem(16);
+    }
+  }
+  &-dutie{
+    position: relative;
+    font-size: rem(14);
+    line-height: 120%;
+    padding-left: rem(20);
+    margin-bottom: rem(5);
+    &::before{
+      content: '';
+      width: rem(6);
+      height: rem(6);
+      background: var(--color-second);
+      position: absolute;
+      left: 0;
+      top: rem(4);
+      transform: rotate(45deg);
+    }
+    @include _768 {
+      font-size: rem(16);
+      &::before{
+        top: rem(6);
+      }
+    }
+  }
+  &-stack{
+    background: var(--color-pink-soft);
+    display: inline-block;
+    font-size: rem(14);
+    line-height: 120%;
+    font-weight: 500;
+    border-radius: var(--border-radius-x2);
+    padding: var(--a-padding-x2);
+    margin: 0 var(--a-padding-x2) var(--a-padding-x2) 0;
+    @include _768 {
+      padding: var(--a-padding-x3) var(--a-padding-x4);
+      font-size: rem(16);
+      font-weight: 600;
+    }
+  }
+  &-links{
+    display: inline-block;
+    width: rem(40);
+    height: rem(40);
     background-size: cover;
-    background-repeat: no-repeat;
     background-position: center;
-    margin-right: rem(25);
+    background-repeat: no-repeat;
+    border-radius: var(--border-radius-x2);
+    margin: 0 var(--a-padding-x2) var(--a-padding-x2) 0;
+    @include _768 {
+      width: rem(60);
+      height: rem(60);
+    }
   }
 }

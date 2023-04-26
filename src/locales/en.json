@@ -134,7 +134,7 @@
             "image": "synergystart"
           }
         ],
-        "stack": ["Vue 2/3", "Vuex/Pina", "Nuxt 2/3", "Options API/Composition API"],
+        "stack": ["Vue", "Nuxt", "Pina", "Composition API"],
         "id": "04"
       },
       {
@@ -157,7 +157,7 @@
             "image": "careplus"
           }
         ],
-        "stack": ["Vue", "React"],
+        "stack": ["Vue", "React", "Redux"],
         "id": "03"
       },
       {
@@ -222,7 +222,7 @@
           "Working with the version control system Git",
           "Maiking of e-mail"
         ],
-        "stack": ["HTML/CSS", "JavaScript/jQuery"],
+        "stack": ["HTML", "SCSS", "JavaScript"],
         "id": "01"
       }
     ]
@@ -232,7 +232,7 @@
     "description": "This page can only be accessed by registered users. <br/>If you want to go to it without authorization, a redirect occurs."
   },
   "error": {
-    "title": "404 page"
+    "title": "404"
   },
   "work": {
     "title": "Page on work"
@@ -242,8 +242,15 @@
   },
   "btnBack": "Go back",
   "footer": {
-    "contacts": "Contacts:",
-    "useful": "Useful links:",
+    "contacts": "Contacts",
+    "useful": "Useful links",
     "rights": "Development, promotion, etc."
+  },
+  "contacts": {
+    "title": "Contacts",
+    "social_title": "Social links",
+    "social_telegram": "Telegram",
+    "social_email": "Email",
+    "social_phone": "Phone"
   }
 }
