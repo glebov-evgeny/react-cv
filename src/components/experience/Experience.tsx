@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import './Experience.scss';
 import { useTranslation } from "react-i18next";
 import ExperienceCard from '../_ui/experienceCard/ExperienceCard';

@@ -26,7 +26,7 @@ function ExperienceCard(props:any) {
       <div className="experience__card-bottom">
         <p className="experience__card-subtitle">{t("experience.example")}</p>
         {item.links.map((link: { item: string; image: string },index:number)=>
-          <Link to={link.item} className="experience__card-links" style={{"backgroundImage": `url("${process.env.REACT_APP_BASE_URL}/img/${link.image}.png")`}} key={index} />
+          <Link to={link.item} className="experience__card-links" style={{"backgroundImage": `url("${process.env.REACT_APP_BASE_URL}img/${link.image}.png")`}} key={index} />
         )}
       </div>
       }
