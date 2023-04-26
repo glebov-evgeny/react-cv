@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-cv/static/css/main.812e9d9e.css",
-    "main.js": "/react-cv/static/js/main.6722be0b.js",
+    "main.css": "/react-cv/static/css/main.b7ddc77c.css",
+    "main.js": "/react-cv/static/js/main.34016078.js",
     "static/media/face-03.png": "/react-cv/static/media/face-03.951b0688c6ed77572c98.png",
     "static/media/face-02.png": "/react-cv/static/media/face-02.c00c36ee8fd4fd2d43ba.png",
     "static/media/face-01.png": "/react-cv/static/media/face-01.88d83c20e92001874dba.png",
@@ -15,11 +15,12 @@
     "static/media/Montserrat-ExtraLight.woff2": "/react-cv/static/media/Montserrat-ExtraLight.6ff62ceb74048d14a551.woff2",
     "static/media/Montserrat-Thin.woff2": "/react-cv/static/media/Montserrat-Thin.edfc57fd74822a587019.woff2",
     "index.html": "/react-cv/index.html",
-    "main.812e9d9e.css.map": "/react-cv/static/css/main.812e9d9e.css.map",
-    "main.6722be0b.js.map": "/react-cv/static/js/main.6722be0b.js.map"
+    "static/media/line.svg": "/react-cv/static/media/line.012f3fed4b926ba1f8d6.svg",
+    "main.b7ddc77c.css.map": "/react-cv/static/css/main.b7ddc77c.css.map",
+    "main.34016078.js.map": "/react-cv/static/js/main.34016078.js.map"
   },
   "entrypoints": [
-    "static/css/main.812e9d9e.css",
-    "static/js/main.6722be0b.js"
+    "static/css/main.b7ddc77c.css",
+    "static/js/main.34016078.js"
   ]
 }
