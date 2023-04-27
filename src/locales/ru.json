@@ -250,5 +250,12 @@
     "contacts": "Контакты",
     "useful": "Полезные ссылки",
     "rights": "Разработка, продвижение, etc."
+  },
+  "contacts": {
+    "title": "Контакты",
+    "social_title": "Ссылки",
+    "social_telegram": "Телеграм",
+    "social_email": "Почта",
+    "social_phone": "Телефон"
   }
 }
