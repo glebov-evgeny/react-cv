@@ -1,4 +1,13 @@
 # Portfolio
+
+## About
+
+Simple SPA React portfolio. 
+```bash
+1) i18next
+2) Gsap
+3) React-fast-marquee
+```
 ## Setup
 
 Make sure to install the dependencies:
@@ -14,7 +23,6 @@ npm install
 
 ## Development Server
 
-Start the development server on http://localhost:3000/react-cv/
 
 ```bash
 # yarn
