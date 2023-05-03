@@ -13,7 +13,6 @@ function Menu() {
   };
 
   const navItems = t<string, itemProps[]>('header.nav', { returnObjects: true });
-
   return (
     <nav className="menu">
       {navItems.map((item: itemProps) => (
