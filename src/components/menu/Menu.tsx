@@ -16,7 +16,7 @@ function Menu() {
   return (
     <nav className="menu">
       {navItems.map((item: itemProps) => (
-        <NavLink to={item.link} className='menu__link' key={item.id}>
+        <NavLink to={item.link} className={`menu__link menu__link-${item.id}`} key={item.id}>
           {item.title}
         </NavLink>
       ))}

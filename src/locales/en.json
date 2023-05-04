@@ -9,9 +9,14 @@
         "id": "01"
       },
       {
+        "title": "About",
+        "link": "/about",
+        "id": "02"
+      },
+      {
         "title": "Contacts",
         "link": "/contacts",
-        "id": "02"
+        "id": "03"
       }
     ]
   },
@@ -134,7 +139,7 @@
             "image": "synergystart"
           }
         ],
-        "stack": ["Vue", "Nuxt", "Pina", "Composition API"],
+        "stack": ["Vue 2/3", "Nuxt 2", "Vue-router", "Vuex", "Axios", "Storybook", "Pug", "SCSS", "Webpack", "Git"],
         "id": "04"
       },
       {
@@ -157,7 +162,7 @@
             "image": "careplus"
           }
         ],
-        "stack": ["Vue", "React", "Redux"],
+        "stack": ["Vue", "React", "Redux", "Webpack", "JavaScript"],
         "id": "03"
       },
       {
@@ -203,7 +208,7 @@
             "image": "brain"
           }
         ],
-        "stack": ["Gulp", "Nunjucks", "PHP", "JS"],
+        "stack": ["HTML5", "CSS3", "PHP", "SCSS", "BEM", "JavaScript", "Nunjucks", "Gulp", "Git"],
         "id": "02"
       },
       {
@@ -222,14 +227,16 @@
           "Working with the version control system Git",
           "Maiking of e-mail"
         ],
-        "stack": ["HTML", "SCSS", "JavaScript"],
+        "stack": ["HTML5", "CSS3", "JavaScript", "Template Toolkit"],
         "id": "01"
       }
     ]
   },
-  "presentation": {
-    "title": "Protected Route",
-    "description": "This page can only be accessed by registered users. <br/>If you want to go to it without authorization, a redirect occurs."
+  "about": {
+    "title": "About",
+    "text_01": "I work as a Frontend developer. In my free time, I improve in web development, constantly learning something new.",
+    "text_02": "In 2019, started working as an HTML coder. I was engaged in layout of landing pages according to layouts, made edits to existing projects. In parallel, he improved in JavaScript and Vue to move into the field of web development.",
+    "text_03": "In 2022, was certified and moved to the position of Frontend developer. From the vue stack, I delved into nuxt, simultaneously studying react. I am currently taking the React - The Complete Guide (Maximilian Schwarzmüller) course on udemy."
   },
   "error": {
     "title": "404"

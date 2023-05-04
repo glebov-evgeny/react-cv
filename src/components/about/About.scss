@@ -1,0 +1,10 @@
+@import '../../common/mixins';
+
+.about{
+  padding: var(--a-padding-x20) 0;  
+  &__title{
+    @include _1600 {
+      max-width: rem(300);
+    }
+  }
+}

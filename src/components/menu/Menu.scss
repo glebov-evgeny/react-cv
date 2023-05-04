@@ -8,6 +8,9 @@
     width: 100%;
   }
   &__link {
+    &-02 {
+      display: none;
+    }
     @include _768 {
       font-size: rem(18);
       transform: none;
