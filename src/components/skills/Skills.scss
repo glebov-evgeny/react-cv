@@ -1,0 +1,15 @@
+@import '../../common/mixins';
+
+.skills{
+  padding: var(--a-padding-x10) 0 var(--a-padding-x20) ;  
+  &__title{
+    @include _1600 {
+      max-width: rem(300);
+    }
+  }
+  // &__main{
+  //   @include _1600 {
+  //     max-width: rem(800);
+  //   }
+  // }
+}

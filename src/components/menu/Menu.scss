@@ -9,7 +9,7 @@
   }
   &__link {
     &-02 {
-      display: none;
+      // display: none;
     }
     @include _768 {
       font-size: rem(18);

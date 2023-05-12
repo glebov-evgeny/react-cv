@@ -145,6 +145,13 @@ ul{
     font-size: rem(54);
   }
 }
+.s-text{
+  position: relative;
+  font-size: rem(16);
+  line-height: 130%;
+  color: var(--color-second);
+  margin-bottom: rem(20);
+}
 .complex{
   @include _1600 {
     display: grid;

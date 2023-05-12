@@ -62,6 +62,7 @@
     "description": "text",
     "item": [
       {
+        "id": 1,
         "title": "HTML",
         "grade": 100,
         "points": [
@@ -78,6 +79,7 @@
         "info": "Layout quickly and efficiently. From the very beginning, I lay the foundation for scaling the project. Used component approach to web development. Used semantic elements to ensure the availability and ranking of sites in search engines."
       },
       {
+        "id": 2,
         "title": "CSS",
         "grade": 90,
         "points": [
@@ -96,6 +98,7 @@
         "info": "I prefer mobile-first. Due to preprocessors, the code writing time and its readability are significantly reduced. I use modern features of CSS. I like to create various animations, both in styles and using more labor-intensive technologies such as Three.js, GSAP. I freely use flex and grid. I carefully monitor the adaptability of the elements, checking and rechecking the product on various resolutions and browsers. In case of doubts about the admissibility of properties and their support, I will definitely check on caniuse.com"
       },
       {
+        "id": 3,
         "title": "JavaScript",
         "grade": 90,
         "points": [
