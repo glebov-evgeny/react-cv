@@ -7,6 +7,8 @@ Simple SPA React portfolio.
 1) i18next
 2) Gsap
 3) React-fast-marquee
+4) Commitizen (http://commitizen.github.io/cz-cli/)
+
 ```
 ## Setup
 
