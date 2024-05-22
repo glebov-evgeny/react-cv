@@ -23,7 +23,7 @@ npm install
 
 ```
 
-## Development Server
+## Development Server.
 
 
 ```bash
